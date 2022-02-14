@@ -1,4 +1,5 @@
 #!/bin/sh 
+ln -s /usr/bin /bin/
 chmod +x /usr/bin/status
 chmod +x /usr/bin/sergate
 httpd -p 8080 -h /opt/public
