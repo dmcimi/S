@@ -1,4 +1,4 @@
 #!/bin/sh 
 chmod +x /usr/bin/sergate
 httpd -p 8080 -h /opt/public
-sergate --config /opt/config.json --web-dir /opt/public --port 2053
+sergate --config /opt/config.json --web-dir /opt/public --port 35601
